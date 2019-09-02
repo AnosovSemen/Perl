@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'Welcome';
+
+<h1>Authentication</h1>
+<form method="post" action="/authentication">
+	Username: <input type="text" name="username" />
+	Password: <input type="text" name="password" />
+	<input type="submit" value="Log in" />
+</form>

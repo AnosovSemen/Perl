@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'Welcome';
+
+<html>
+  <body>
+	    <h2><%= $msg %></h2> 
+	    <a href="/">Click here</a> to get back to the start.
+  </body>
+</html>
