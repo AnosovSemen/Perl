@@ -17,6 +17,8 @@ sub startup {
   # Normal route to controller
   $r->get('/')->to('example#welcome');
   $r->post('authentication')->to('example#auth');
+  
+
 }
 
 1;
